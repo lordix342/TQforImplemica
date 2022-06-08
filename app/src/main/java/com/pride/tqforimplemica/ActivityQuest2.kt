@@ -38,7 +38,7 @@ class ActivityQuest2 : AppCompatActivity(), OnItemSelectedListener {
         spinnerF.setSelection(1)
         spinnerF.onItemSelectedListener = this
         binding.button2.setOnClickListener {
-            viewM.startClick(nameStartCity,4, nameEndCity)
+            viewM.startClick(nameStartCity, nameEndCity)
         }
 
     }
