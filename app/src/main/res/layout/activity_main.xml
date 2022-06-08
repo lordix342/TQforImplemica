@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bquest1"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="QUEST 1"
+        app:layout_constraintBottom_toTopOf="@+id/bquest2"
+        app:layout_constraintEnd_toEndOf="@+id/bquest2"
+        app:layout_constraintStart_toStartOf="@+id/bquest2" />
+
+    <Button
+        android:id="@+id/bquest2"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="QUEST 2"
+        app:layout_constraintBottom_toTopOf="@+id/bquest3"
+        app:layout_constraintEnd_toEndOf="@+id/bquest3"
+        app:layout_constraintStart_toStartOf="@+id/bquest3" />
+
+    <Button
+        android:id="@+id/bquest3"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="QUEST 3"
+        app:layout_constraintBottom_toTopOf="@+id/bexit"
+        app:layout_constraintEnd_toEndOf="@+id/bexit"
+        app:layout_constraintStart_toStartOf="@+id/bexit" />
+
+    <Button
+        android:id="@+id/bexit"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="EXIT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
